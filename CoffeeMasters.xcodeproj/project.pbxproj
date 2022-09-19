@@ -7,20 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		707C5DBA28D368BC00F8CE4D /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707C5DB928D368BC00F8CE4D /* ProductItem.swift */; };
+		707C5DBD28D3A22F00F8CE4D /* DetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707C5DBC28D3A22F00F8CE4D /* DetailsPage.swift */; };
+		707C5DC028D3A7D900F8CE4D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707C5DBF28D3A7D900F8CE4D /* Category.swift */; };
+		707C5DC228D3A7E600F8CE4D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707C5DC128D3A7E600F8CE4D /* Product.swift */; };
+		707C5DC428D3AB0800F8CE4D /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707C5DC328D3AB0800F8CE4D /* MenuManager.swift */; };
+		707C5DC628D3AB1800F8CE4D /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707C5DC528D3AB1800F8CE4D /* CartManager.swift */; };
 		70B711DF28CF92170018876D /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B711DE28CF92170018876D /* Offer.swift */; };
+		70B7122128D108D60018876D /* OffersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B7122028D108D60018876D /* OffersPage.swift */; };
+		70B7122528D244B00018876D /* MenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B7122428D244B00018876D /* MenuPage.swift */; };
+		70B7122728D244BC0018876D /* OrdersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B7122628D244BC0018876D /* OrdersPage.swift */; };
+		70B7122928D244CA0018876D /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B7122828D244CA0018876D /* InfoPage.swift */; };
 		70B75BBB28CBB00C00D309EE /* CoffeeMastersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B75BBA28CBB00C00D309EE /* CoffeeMastersApp.swift */; };
 		70B75BBD28CBB00C00D309EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B75BBC28CBB00C00D309EE /* ContentView.swift */; };
 		70B75BBF28CBB00E00D309EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B75BBE28CBB00E00D309EE /* Assets.xcassets */; };
 		70B75BC228CBB00E00D309EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B75BC128CBB00E00D309EE /* Preview Assets.xcassets */; };
+		70BE496E28D508EF00F2A744 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE496D28D508EF00F2A744 /* OrderItem.swift */; };
+		70BE497128D5172C00F2A744 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 70BE497028D5172C00F2A744 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		707C5DB928D368BC00F8CE4D /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
+		707C5DBC28D3A22F00F8CE4D /* DetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPage.swift; sourceTree = "<group>"; };
+		707C5DBF28D3A7D900F8CE4D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		707C5DC128D3A7E600F8CE4D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		707C5DC328D3AB0800F8CE4D /* MenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
+		707C5DC528D3AB1800F8CE4D /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 		70B711DE28CF92170018876D /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		70B7122028D108D60018876D /* OffersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersPage.swift; sourceTree = "<group>"; };
+		70B7122428D244B00018876D /* MenuPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPage.swift; sourceTree = "<group>"; };
+		70B7122628D244BC0018876D /* OrdersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersPage.swift; sourceTree = "<group>"; };
+		70B7122828D244CA0018876D /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
 		70B75BB728CBB00C00D309EE /* CoffeeMasters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMasters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B75BBA28CBB00C00D309EE /* CoffeeMastersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMastersApp.swift; sourceTree = "<group>"; };
 		70B75BBC28CBB00C00D309EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		70B75BBE28CBB00E00D309EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70B75BC128CBB00E00D309EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		70BE496D28D508EF00F2A744 /* OrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,12 +51,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70BE497128D5172C00F2A744 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		707C5DBE28D3A7BC00F8CE4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				707C5DBF28D3A7D900F8CE4D /* Category.swift */,
+				707C5DC128D3A7E600F8CE4D /* Product.swift */,
+				707C5DC328D3AB0800F8CE4D /* MenuManager.swift */,
+				707C5DC528D3AB1800F8CE4D /* CartManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70B7122228D143230018876D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				70B711DE28CF92170018876D /* Offer.swift */,
+				707C5DB928D368BC00F8CE4D /* ProductItem.swift */,
+				70BE496D28D508EF00F2A744 /* OrderItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		70B7122328D244920018876D /* Page Views */ = {
+			isa = PBXGroup;
+			children = (
+				70B7122428D244B00018876D /* MenuPage.swift */,
+				707C5DBC28D3A22F00F8CE4D /* DetailsPage.swift */,
+				70B7122628D244BC0018876D /* OrdersPage.swift */,
+				70B7122828D244CA0018876D /* InfoPage.swift */,
+				70B7122028D108D60018876D /* OffersPage.swift */,
+			);
+			path = "Page Views";
+			sourceTree = "<group>";
+		};
 		70B75BAE28CBB00C00D309EE = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +110,11 @@
 		70B75BB928CBB00C00D309EE /* CoffeeMasters */ = {
 			isa = PBXGroup;
 			children = (
+				707C5DBE28D3A7BC00F8CE4D /* Model */,
+				70B7122328D244920018876D /* Page Views */,
+				70B7122228D143230018876D /* Views */,
 				70B75BBA28CBB00C00D309EE /* CoffeeMastersApp.swift */,
 				70B75BBC28CBB00C00D309EE /* ContentView.swift */,
-				70B711DE28CF92170018876D /* Offer.swift */,
 				70B75BBE28CBB00E00D309EE /* Assets.xcassets */,
 				70B75BC028CBB00E00D309EE /* Preview Content */,
 			);
@@ -86,6 +145,9 @@
 			dependencies = (
 			);
 			name = CoffeeMasters;
+			packageProductDependencies = (
+				70BE497028D5172C00F2A744 /* Alamofire */,
+			);
 			productName = CoffeeMasters;
 			productReference = 70B75BB728CBB00C00D309EE /* CoffeeMasters.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +176,9 @@
 				Base,
 			);
 			mainGroup = 70B75BAE28CBB00C00D309EE;
+			packageReferences = (
+				70BE496F28D5172C00F2A744 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 70B75BB828CBB00C00D309EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,8 +205,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				707C5DC428D3AB0800F8CE4D /* MenuManager.swift in Sources */,
+				707C5DC628D3AB1800F8CE4D /* CartManager.swift in Sources */,
 				70B711DF28CF92170018876D /* Offer.swift in Sources */,
+				707C5DC028D3A7D900F8CE4D /* Category.swift in Sources */,
+				70B7122128D108D60018876D /* OffersPage.swift in Sources */,
+				70B7122528D244B00018876D /* MenuPage.swift in Sources */,
+				707C5DBD28D3A22F00F8CE4D /* DetailsPage.swift in Sources */,
+				707C5DC228D3A7E600F8CE4D /* Product.swift in Sources */,
+				70B7122928D244CA0018876D /* InfoPage.swift in Sources */,
+				70BE496E28D508EF00F2A744 /* OrderItem.swift in Sources */,
+				707C5DBA28D368BC00F8CE4D /* ProductItem.swift in Sources */,
 				70B75BBD28CBB00C00D309EE /* ContentView.swift in Sources */,
+				70B7122728D244BC0018876D /* OrdersPage.swift in Sources */,
 				70B75BBB28CBB00C00D309EE /* CoffeeMastersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +417,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		70BE496F28D5172C00F2A744 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		70BE497028D5172C00F2A744 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70BE496F28D5172C00F2A744 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 70B75BAF28CBB00C00D309EE /* Project object */;
 }
