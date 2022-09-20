@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var cartManager: CartManager
+    
     var body: some View {
         TabView{
-            Text("Home Page")
+            MenuPage()
                 .tabItem{
                     Image(systemName: "cup.and.saucer")
                     Text("Menu")
@@ -20,12 +23,13 @@ struct ContentView: View {
                     Image(systemName: "tag")
                     Text("Order")
                 }
-            Text("Order Page")
+            OrdersPage()
                 .tabItem{
                     Image(systemName: "cart")
                     Text("Order")
                 }
-            Text("Info Page")
+                .badge(cartManager.cart.count)
+            InfoPage()
                 .tabItem{
                     Image(systemName: "info")
                     Text("Info")
